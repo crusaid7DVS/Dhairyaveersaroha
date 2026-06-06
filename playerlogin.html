@@ -2,21 +2,28 @@
 <html>
 <head>
 <title>player login</title>
-<input type="text" ID="username" placeholder="type in your username here"
-  <input type="password" ID="password" placeholder="type in the correct password right here!"
-  <button onclick="loginCheck()">login</button>
-  <div id="messages"></div>  
 <script>
  function loginCheck() {
 var username=document.getElementByID("username").value;
 var password=document.getElementByID("password").value;
    localStorage.setItem("savedUsername",username);
 
-   if("password"=QTX0005){
+   if(password==="QTX0005"){
      window.location.href="teamchat.html";
    }
    else{
-     document.getElementByID("messages")textContent."Wrong password, type again!"
+     document.getElementByID("messages")textContent="Wrong password, type again!"
    }
  }
 </script>
+</head>
+<body>
+  <h1>player login section</h1>
+  <hr>
+<h4>username:</h4>  
+  <input type="text" ID="username" placeholder="type your username here!">
+<hr>
+  <h4>password:</h4>
+  <input type="password" ID="password" placeholder="type the correct password here!">
+  <hr>
+</body>
