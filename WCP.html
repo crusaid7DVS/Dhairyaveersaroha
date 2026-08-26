@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <meta charset=UTF-8>
-  <meta name="viewport" content="width-device-width" intial scale=1.0>
-    <title>WCP.org</title>
-  <style>
-    .title{
-      text-align=center;
-      color=blue;
-      font-family='inter', sans serif;
-    }
-  </style>
 <html>
+  <head>
+    <title>w.c.p</title>
+    <style>
+    body {
+      margin:0;
+      height:100vh;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(to left, white 25%, blue 75%);
+    }
+    .btn{
+      font-size:1.8rem;
+      font-family:sans-serif;
+      font-weight:100;
+      background-color:blue;
+      color: white;
+      border-radius:50px;
+      cursor:pointer;
+      transition:background color 0.2s ease, transition 0.2 ease;
+      .btn:hover{
+        background-color:#0000cc
+        transform:scale(1.02)
+      } 
+    }
+    </style>
+  </head>
   <body>
-   <h1 class="title">WCP.org</h1>
+ <button h1 class="btn" onclick="userInput()">W.C.P</h1>
+ <script>
+  function userInput(){
+    window.location.href="WcpHomepage.html"
+  }
+ </script>
   </body>
 </html>
-
 
 
