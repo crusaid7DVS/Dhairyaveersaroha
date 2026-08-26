@@ -1,42 +1,38 @@
-<DOCTYPE html>
-  <html>
+<!DOCTYPE html>
+<html>
   <head>
-    <title>OUR CUSTOM FOOTY CLUB</title>
-  <style>
-    h1{
-      border:2px solid black;
-      padding:25px;
-       }
-    nav{
-      border:4px solid purple;
-      padding:25px;
+    <title>w.c.p</title>
+    <style>
+    body {
+      margin:0;
+      height:100vh;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(to left, white 25%, blue 75%);
     }
+    .btn{
+      font-size:1.8rem;
+      font-family:sans-serif;
+      font-weight:100;
+      background-color:blue;
+      color: white;
+      border-radius:50px;
+      cursor:pointer;
+      transition:background color 0.2s ease, transition 0.2 ease;
+      .btn:hover{
+        background-color:#0000cc
+        transform:scale(1.02)
+      } 
+    }
+    </style>
   </head>
-    <body>
-  <hr>
-                                        <h1>OUR CUSTOM FOOTY CLUB</h1>
-  <hr>
-                               <nav>
-                                      <a href="highlights.html">click here to watch highlights</a>
-  <hr>          
-                                      <a href="matches.html">click here to wtch our matches</a>
-  <hr>
-                                      <a href="leaderboards.html">click here to see leaderboard</a>
-  <hr>
-                                      <a href="upcoming_events.html">click here to see the upcoming events</a>
-  <hr>                             </nav>
-  
-                                         <h1> Our player login</h1>
-                                    <a href="playerlogin.html">click here for player login</a>
-  <hr>
-                                      
-                                            <h1>ALL ABOUT US</h1> 
-  <hr>                
-  <p>We are a collective football friend group that plays and organises matches and plays matches too, we also train
-  in an group kind of like team training of some sorts and play in lineups and positions, we also have players that do and will operate in academies
-  and clubs in the future, our group consists of youth class players that have diffrent classes and skill groups and positions.
-  we will post highlights in the highlights section, matches in the matches section, and there will be a leaderboard in the future</p>
-  <hr> 
-  <h1>-made by dhairya veer saroha.</h1>
-  </html>
-    </body>
+  <body>
+ <button h1 class="btn" onclick="userInput()">W.C.P</h1>
+ <script>
+  function userInput(){
+    window.location.href="WcpHomepage.html"
+  }
+ </script>
+  </body>
+</html>
